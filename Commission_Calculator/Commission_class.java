@@ -23,5 +23,10 @@ public class Commission_class {
 		}
 		this.compensation = this.salary +(this.sales_figure * this.commission);
 	}
+	public  void Display_Calculation_Compensation_received(){
+		System.out.println("---------------------------------------");
+		System.out.println("Name is "+this.name+" compensation is "+commission+"  Bath");
+	}
 
 }
+
