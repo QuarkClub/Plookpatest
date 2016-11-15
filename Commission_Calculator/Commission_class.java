@@ -14,7 +14,7 @@ public class Commission_class {
 	}
 	
 	public  void Commission_calculation(){
-		if(this.sales_figure >=1 || this.sales_figure <= 25000){
+		if(this.sales_figure >=1 && this.sales_figure <= 25000){
 			this.commission = 0.01;
 		}else if(this.sales_figure <=50000){
 			this.commission = 0.02;
