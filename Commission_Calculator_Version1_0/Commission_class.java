@@ -14,11 +14,11 @@ public class Commission_class {
 	}
 	
 	public  void Commission_calculation(){
-		if(this.sales_figure >=1 && this.sales_figure <= 25000){
+		if(this.sales_figure >=1 && this.sales_figure <= 50000){
 			this.commission = 0.01;
-		}else if(this.sales_figure <=50000){
+		}else if(this.sales_figure <=100000){
 			this.commission = 0.02;
-		}else if(this.sales_figure > 50000){
+		}else if(this.sales_figure > 100001){
 			this.commission = 0.03;
 		}
 		this.compensation = this.salary +(this.sales_figure * this.commission);
