@@ -14,17 +14,17 @@ public class Commission_class {
 	}
 	
 	public  void Commission_calculation(){
-		if(this.sales_figure >=1 && this.sales_figure <= 50000){
+		if(this.sales_figure >=1 && this.sales_figure <= 25000){
 			this.commission = 0.01;
-		}else if(this.sales_figure <=100000){
+		}else if(this.sales_figure <=50000){
 			this.commission = 0.02;
-		}else if(this.sales_figure > 100001){
+		}else if(this.sales_figure > 50000){
 			this.commission = 0.03;
 		}
 		this.compensation = this.salary +(this.sales_figure * this.commission);
 	}
 	public  void Display_Calculation_Compensation_received(){
-		System.out.println("---------------Version1--------------------");
+		System.out.println("--------------------------------------");
 		System.out.println("Name is "+this.name+" compensation is "+commission+"  Bath");
 	}
 
