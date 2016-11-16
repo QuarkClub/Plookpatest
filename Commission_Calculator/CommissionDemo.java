@@ -10,6 +10,9 @@ public class CommissionDemo {
 		double salary = input.nextDouble();
 		System.out.print("Plase input sales figure : ");
 		double sales_figure = input.nextDouble();
+		Commission_class obj = new Commission_class(name, salary, sales_figure);
+		obj.Commission_calculation();
+		obj.Display_Calculation_Compensation_received();
 	}
 
 }
