@@ -22,6 +22,9 @@ public class Commission_class {
 			this.commission = 0.03;
 		}
 		this.compensation = this.salary +(this.sales_figure * this.commission);
+		if (this.compensation < 18000){
+			this.compensation = 18000 ;
+		}
 	}
 	public  void Display_Calculation_Compensation_received(){
 		System.out.println("--------------------------------------");
