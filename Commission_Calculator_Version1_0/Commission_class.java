@@ -25,7 +25,7 @@ public class Commission_class {
 	}
 	public  void Display_Calculation_Compensation_received(){
 		System.out.println("--------------------------------------");
-		System.out.println("Name is "+this.name+" compensation is "+commission+"  Bath");
+		System.out.println("Name is "+this.name+" compensation is "+this.compensation+"  Bath");
 	}
 
 }
